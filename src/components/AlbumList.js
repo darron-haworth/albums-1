@@ -19,7 +19,7 @@ class AlbumList extends Component {
   }
 
   render() {
-    console.log(this.state);
+    //console.log(this.state);  //commented out for performance, don't need unless we are debugging
 
     return (
       <ScrollView>
